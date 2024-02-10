@@ -1,0 +1,54 @@
+{
+    "name": "TouchAction",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "7ae4dd41-5e88-483d-b345-bd6e6a6b8814",
+            "actions": [
+                {
+                    "name": "ForcePosition",
+                    "type": "Value",
+                    "id": "59566b32-a7c8-4589-b493-b1e3944ec0d7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ForcePress",
+                    "type": "Button",
+                    "id": "1b33bc98-518b-418b-829b-ba48d2eb4046",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d3525f8b-eba4-4c7a-9d60-3c753a15ce77",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForcePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a35fe4a-fc9e-4ee1-9f4b-5f047547ee8f",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForcePress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
